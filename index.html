@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTP Generator</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="wrapper">
+        <div class="container">
+            <div class="heading">OTP <span style="color: yellow">Generator</span> </div>
+
+            <button onclick="generate()" id="opt_btn">
+                <div id="inside-generate-btn">Generate OTP <span id="generate_animation"><img src="generate.gif" alt=""
+                            height="30px width=" 30px"></span></div>
+            </button>
+
+            <div id="display_area">
+                <p id="result"></p>
+                <button onclick="copy()" id="copy_btn">
+                    <div id="inside-cpy-btn">Copy <span id="copy_animation"><img src="copy.gif" alt=""
+                                height="30px width=" 30px"></span></div>
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
